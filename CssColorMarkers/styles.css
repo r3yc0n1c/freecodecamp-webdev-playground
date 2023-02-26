@@ -1,0 +1,45 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorBox{    
+    height: 2rem;
+    width: 15rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 1rem 0.2rem grey;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
+}
+
+.color1{
+    background-image: linear-gradient(#a32926, #E43962, #a32926);
+}
+
+.color2{
+    background-image: linear-gradient(#5B8317,#6EE639,#5B8317);
+}
+.color3{
+    background-image: linear-gradient(#11485E,#3C6DF0,#11485E);
+}
+
+.strip{
+    background-color: black;
+    height: 2rem;
+    width: 0.3rem;
+    z-index: 2;
+}
+
+.faded{
+    height: 2rem;
+    width: 9rem;
+    background-color: white;
+    opacity: 0.5;
+    position: absolute;
+    margin-left: 4rem;
+    z-index: 1;
+}

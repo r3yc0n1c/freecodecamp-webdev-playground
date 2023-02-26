@@ -1,0 +1,90 @@
+head{
+    display: block;
+} 
+
+h1{ 
+    font-size: 2.3rem;
+    margin-bottom:0.5rem;
+    margin-top: 3rem;
+}
+
+p{
+    margin:0;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+
+body{
+    margin-top:0;
+    background-color: #45418C;
+    margin: 0;
+    color: white;
+    position: absolute;
+}
+
+#back {
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+     opacity: 0.18;
+      background-size: cover;
+      height: 200%;
+      z-index: 1; 
+      position: fixed;
+      width: 100vw;
+    }
+
+.center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+    width: 100vw;
+}
+
+form{ 
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    margin-top: 2rem ;
+    height: max-content;
+    width: 40rem;
+    background-color:#212142 ;
+    position:sticky;
+    z-index: 2;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+
+}
+
+.textBox{
+    width: 98%;
+    height: 1.5rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    background-color: white;
+    border: 0;
+    padding-left: 0.3rem;
+    color: black; 
+}
+
+textarea{
+    background-color:white ;
+    margin-top: 1rem;
+    color: black;
+    width: 38rem;
+    height: 10rem;
+}
+
+/* input[type=submit]{
+    background-color: #37AF65;
+    height: 2.5rem;
+    width: 18rem;
+    border-color: white;
+    color: white;
+    font-size: medium;
+    margin-top: 3rem;
+    border-width: 0.05rem;
+} */

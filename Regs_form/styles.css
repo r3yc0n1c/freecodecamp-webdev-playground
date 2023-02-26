@@ -1,0 +1,58 @@
+body{
+    background-color: #1B1B32;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#Form{
+    padding: 1rem;
+    height: auto;
+    width: 60%;
+    /* background-color: blue; */
+}
+
+.left{
+    text-align: left;
+}
+
+.textBox{
+    padding-left: 0.5rem;
+    height: 2rem;
+    width: 95%;
+    margin: 2% 0 2% 0; /* top | right | bottom | left */
+    background-color: #0A0A23;
+    color: white;
+    border: 0;
+}
+
+hr {
+    background-color: #3B3B4F;
+    border: 0;
+    height: 0.2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+a:link, a:active, a:visited {
+    color: white;
+}
+
+textarea{
+    background-color: #0A0A23;
+    color: white;
+    margin: 1rem 0 1rem 0;
+    border: 0;
+    width: 95%;
+}
+
+input[type=submit]{
+    background-color: #3B3B4F;
+    color: white;
+    border-color: white;
+    width: 60%;
+    height: 3%;
+    font-size: large;
+    padding: 0.1rem;
+}

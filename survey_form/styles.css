@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    background-color: #3A3B8C;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#front,
+#back {
+    position: absolute;
+    width: 100vw;
+}
+
+#back {
+    min-height: 100vh;
+    z-index: 1;
+}
+
+#front {
+    z-index: 2;
+}
+
+#back {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.formBox{
+    background-color: #282745;
+    color: white;
+    width: 50%;
+    height: auto;
+    /* border-radius: ; */
+}
